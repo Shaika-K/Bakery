@@ -1,0 +1,13 @@
+.app-navigation {
+  height: 60px;
+  background-color: var(--bakery-primary-orange);
+  .image-container {
+    width: 105px;
+  }
+
+  a{
+    color: var(--bakery-secondary-brown);
+    font-size: 10px;
+  }
+}
+

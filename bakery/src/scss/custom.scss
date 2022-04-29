@@ -1,0 +1,46 @@
+// Custom.scss
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~bootstrap/scss/_functions";
+
+// 2. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/_mixins";
+@import "~bootstrap/scss/_root";
+// Optional Bootstrap components here
+@import "~bootstrap/scss/_reboot";
+@import "~bootstrap/scss/_type";
+
+// 3. Map new variables
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Source+Sans+Pro&display=swap");
+
+:root {
+  --bs-font-sans-serif: "Alegreya Sans", sans-serif;
+  --bs-font-secondary-sans-serif: "Source Sans Pro", sans-serif;
+
+  --bakery-primary-orange: #ea7020;
+  --bakery-secondary-orange: #e9662f;
+  --bakery-tertiary-orange: #fbc8a7;
+  --bakery-primary-brown: #895020;
+  --bakery-secondary-brown: #f8eae7;
+  --bakery-primary-teal: #1d515f;
+  --bakery-seconday-teal: #c1dee6;
+  --bakery-grey: #8f8c8c;
+  --bakery-slate: #66808f;
+}
+
+h1,
+h3,
+h4 {
+  font-family: var(--bs-font-sans-serif);
+}
+h2,
+h5,
+h6,
+p {
+  font-family: var(--bs-font-secondary-sans-serif);
+}
+
+a {
+  font-family: var(--bs-font-sans-serif);
+}
