@@ -1,4 +1,20 @@
-.app-contact{
-    height: 330px;
-    background-color: #1D515F;
+.app-contact {
+  height: var(--mobile-contact-height);
+  background-color: var(--bakery-primary-teal);
+  color: var(--bakery-seconday-teal);
+  .contact-text {
+    flex: 3;
+    p {
+      font-size: 10px;
+    }
+  }
+  .contact-image {
+    flex: 1;
+  }
+
+  a {
+    background-color: transparent;
+    border: transparent;
+    width:35px;
+  }
 }

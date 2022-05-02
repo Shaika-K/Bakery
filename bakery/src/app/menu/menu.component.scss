@@ -1,4 +1,12 @@
 .app-menu{
-    height: 540px;
-    background-color: #F8EAE7;
+    height: var(--mobile-menu-height);
+    background-color: var(--bakery-secondary-brown);
+    .disclaimer{
+      background-color: var(--bakery-primary-orange);
+      font-size: 10px;
+      p{
+        color: var(--bakery-secondary-brown);
+        margin-bottom: 0px;
+      }
+    }
 }

@@ -1,5 +1,5 @@
 .app-navigation {
-  height: 60px;
+  height: var(--mobile-nav-height);
   background-color: var(--bakery-primary-orange);
   .image-container {
     width: 105px;
@@ -7,7 +7,7 @@
 
   a{
     color: var(--bakery-secondary-brown);
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
