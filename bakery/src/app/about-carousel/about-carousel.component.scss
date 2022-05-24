@@ -1,0 +1,7 @@
+.carousel-item {
+  height: var(--mobile-about-height);
+  > img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

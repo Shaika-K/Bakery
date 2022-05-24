@@ -1,0 +1,68 @@
+[
+  {
+    "description": "string",
+    "title": "juice",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "milk shake",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "spider",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Espresso",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Americano",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Latte",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Capuccino",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Mocha",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Flat White",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "mocktails",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Soda",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  }
+]

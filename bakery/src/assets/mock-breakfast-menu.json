@@ -1,0 +1,32 @@
+[
+  {
+    "description": "string",
+    "title": "Breakfast Toast",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "title": "Fluffy Pancakes OR Waffles",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "title": "French Toast",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "title": "Cheesy Toast",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "title": "Fancy Cereals",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  }
+]

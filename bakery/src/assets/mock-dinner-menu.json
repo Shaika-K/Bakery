@@ -1,0 +1,73 @@
+[
+  {
+    "description": "string",
+    "title": "Peri Peri Chicken n Chips",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Vermicilli Noodle Salad",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Roast 1/2 Chicken",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Babong",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Loaded Fries",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Curry",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Naan",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Rice",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Pizza",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Loaded Fries",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },{
+    "description": "with gravy and tomato Feta salad",
+    "title": "Kimchi frid rice",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Burger",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  }
+]

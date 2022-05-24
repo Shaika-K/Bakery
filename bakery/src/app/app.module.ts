@@ -7,6 +7,10 @@ import { AboutComponent } from './about/about.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { MenuCarouselComponent } from './menu-carousel/menu-carousel.component';
+import { AboutCarouselComponent } from './about-carousel/about-carousel.component';
+import { MenuDetailComponent } from './menu-detail/menu-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,10 +19,14 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     MenuComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    MenuCarouselComponent,
+    AboutCarouselComponent,
+    MenuDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

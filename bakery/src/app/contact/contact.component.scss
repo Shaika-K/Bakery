@@ -2,14 +2,22 @@
   height: var(--mobile-contact-height);
   background-color: var(--bakery-primary-teal);
   color: var(--bakery-seconday-teal);
+  flex-wrap: nowrap;
   .contact-text {
-    flex: 3;
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 0;
     p {
       font-size: 10px;
     }
   }
   .contact-image {
-    flex: 1;
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background: url("../../assets/cafe2.jpg");
+    background-size: cover;
+    background-position-x: 40%;
   }
 
   a {

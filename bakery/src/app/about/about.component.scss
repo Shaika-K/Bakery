@@ -2,9 +2,7 @@
   height: var(--mobile-about-height);
   background-color: black;
   .image-container {
-    background: url("../../assets/croissant.jpg");
-    background-size: cover;
-
+    margin-top: calc(var(--mobile-about-height) * -1);
     .blur {
       background: rgba(251, 200, 167, 0.2);
       backdrop-filter: blur(4px);
@@ -13,11 +11,11 @@
         //background-color: rgba(var(--bakery-tertiary-orange), 0.8);
         border-radius: 1.5rem !important;
 
-        h1{
+        h1 {
           color: var(--bakery-primary-orange);
         }
 
-        p{
+        p {
           color: var(--bakery-primary-brown);
         }
       }

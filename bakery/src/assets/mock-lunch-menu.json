@@ -1,0 +1,38 @@
+[
+  {
+    "description": "string",
+    "title": "Soup of the Day",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Fish n Chips",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "Indonesian Rice Salad",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "BBQ ribs",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Chicken Katsu",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "with gravy and tomato Feta salad",
+    "title": "Iskinder",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  }
+]

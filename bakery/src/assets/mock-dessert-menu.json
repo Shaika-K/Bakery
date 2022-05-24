@@ -1,0 +1,38 @@
+[
+  {
+    "description": "string",
+    "title": "doughnuts",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "ice cream brownies",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "cheesecake",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "pb caranel slice",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "apple pie",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  },
+  {
+    "description": "string",
+    "title": "cake slice",
+    "dietaryRequirements": "string",
+    "totalNzd": "number"
+  }
+]
