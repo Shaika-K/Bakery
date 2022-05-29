@@ -1,38 +1,38 @@
 [
   {
-    "description": "string",
+    "description": "Served with Bread or noodle. Please check with the staff what we are serving today",
     "title": "Soup of the Day",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "N/A",
+    "totalNzd": 10.50
   },
   {
-    "description": "string",
+    "description": "Battered hoki with cajun chips, served a wedge of lemon, ketchup and tartare sauce",
     "title": "Fish n Chips",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "N/A",
+    "totalNzd": 17.50
   },
   {
-    "description": "string",
+    "description": "Crunchy brown rice salad with satay sauce",
     "title": "Indonesian Rice Salad",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "VG. Can be DF.",
+    "totalNzd": 8.00
   },
   {
-    "description": "with gravy and tomato Feta salad",
+    "description": "Overnight marinated beef ribs served with gravy and tomato Feta salad",
     "title": "BBQ ribs",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "Can be DF",
+    "totalNzd": 23.00
   },
   {
-    "description": "with gravy and tomato Feta salad",
+    "description": "Crumbed katsu chicken served with noodles and salad",
     "title": "Chicken Katsu",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "Can be DF",
+    "totalNzd": 18.00
   },
   {
-    "description": "with gravy and tomato Feta salad",
+    "description": "Doner meat and chicken served with rice, humus, salad, and tabouli",
     "title": "Iskinder",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "Can be DF",
+    "totalNzd": 20.00
   }
 ]

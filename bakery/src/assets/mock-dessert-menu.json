@@ -1,38 +1,38 @@
 [
   {
-    "description": "string",
-    "title": "doughnuts",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Choose from [custard filled, chocolate filled, caramel filled, glazed, jam filled, cinnamon and brown sugar dusted, pink icing and sprinkles]",
+    "title": "Doughnuts",
+    "dietaryRequirements": "N/A",
+    "totalNzd": 5.00
   },
   {
-    "description": "string",
-    "title": "ice cream brownies",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Served with Vanilla Ice cream",
+    "title": "Brownies",
+    "dietaryRequirements": "Can be DF",
+    "totalNzd": 3.50
   },
   {
-    "description": "string",
-    "title": "cheesecake",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Served with yoghurt or cream. Choose from [cookies and cream, baked lemon, key lime, black forest, salted caramel]",
+    "title": "Cheesecake",
+    "dietaryRequirements": "N/A",
+    "totalNzd": 5.50
   },
   {
-    "description": "string",
-    "title": "pb caranel slice",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Made with raw ingredients.",
+    "title": "Peanut Butter Caranel Slice",
+    "dietaryRequirements": "N/A",
+    "totalNzd": 5.00
   },
   {
-    "description": "string",
-    "title": "apple pie",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Served with cream.",
+    "title": "Coconut Chocolate Macaroon",
+    "dietaryRequirements": "V",
+    "totalNzd": 5.00
   },
   {
-    "description": "string",
-    "title": "cake slice",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Served with yoghurt or cream. Choose from [Almond and Mediteranean orange, double chocolate, black forest, white chocolate and rasberry, apple crumble, carrot]",
+    "title": "Cake Slice",
+    "dietaryRequirements": "N/A",
+    "totalNzd": 4.50
   }
 ]

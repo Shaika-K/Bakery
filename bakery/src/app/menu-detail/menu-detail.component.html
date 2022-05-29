@@ -1,1 +1,14 @@
-<p>menu-detail works!</p>
+<div class="app-menu-details mx-5 mx-md-auto mb-4 d-flex flex-column">
+  <h1 class="title text-center">{{ menuTitle }}</h1>
+  <p class="time text-center">{{ menuTime }}</p>
+  <div class="items pe-4 vstack gap-3">
+    <div class="menu-item" *ngFor="let menuItem of menu">
+      <div class="menu-item-header d-flex align-items-baseline mb-2 justify-content-between">
+        <h4 class="menu-item-header-title text-wrap  mb-0">{{ menuItem.title }}</h4>
+        <p class="menu-item-header-price  mb-0">{{ menuItem.totalNzd | currency}}</p>
+      </div>
+      <p class="menu-item-description mb-1">{{ menuItem.description }}</p>
+      <p class="menu-item-dietary fst-italic mb-0">{{ menuItem.dietaryRequirements }}</p>
+    </div>
+  </div>
+</div>

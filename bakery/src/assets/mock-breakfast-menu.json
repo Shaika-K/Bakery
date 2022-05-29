@@ -1,32 +1,38 @@
 [
   {
-    "description": "string",
+    "description": "Toast with your choice of two accompaniments [eggs your way, nutella, butter, peanut butter, mixed berry jam, marmalade, marmite]",
     "title": "Breakfast Toast",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "Can be DF, NF",
+    "totalNzd": 10.00
   },
   {
-    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
-    "title": "Fluffy Pancakes OR Waffles",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "description": "Stack of 3 fluffy large pancakes or waffles. Served with maple syrup and whipped butter. With your choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg]",
+    "title": "Pancakes OR Waffles",
+    "dietaryRequirements": "VG. Can be DF, V",
+    "totalNzd": 15.00
   },
   {
-    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "description": "Fluffy cinnamon french toast",
     "title": "French Toast",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "VG. Can be DF",
+    "totalNzd": 8.00
   },
   {
-    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "description": "Creamy garlic mushrooms on toast. Can add a poached or fried egg for $3.00",
+    "title": "Mushrooms on Toast",
+    "dietaryRequirements": "VG. Can be V, DF",
+    "totalNzd": 13.50
+  },
+  {
+    "description": "Two stuffed cheesy toast with relish and your choice of 3 fillings [spinach, mushrooms, chicken, halloumi, jalapenoes, aoli]",
     "title": "Cheesy Toast",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "VG",
+    "totalNzd": 12.00
   },
   {
-    "description": "Stack of 3 large pancakes. Served with maple syrup and whipped butter. With you choice of [lemon and sugar, caramalised bananas and butter scotch, berry compote and whipped cream, rashers and hash stack, garlic mushrooms and fried egg ]",
+    "description": "Your choice of [Vanilla and Almond Muslie, Coconut and berry Muslie, Fruit loops, Coco puffs, Cereal with banana chips, wheetbix.]",
     "title": "Fancy Cereals",
-    "dietaryRequirements": "string",
-    "totalNzd": "number"
+    "dietaryRequirements": "Can be V, DF",
+    "totalNzd": 5.50
   }
 ]

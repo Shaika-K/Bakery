@@ -1,8 +1,8 @@
 .app-about {
-  height: var(--mobile-about-height);
+  height: var(--about-height);
   background-color: black;
   .image-container {
-    margin-top: calc(var(--mobile-about-height) * -1);
+    margin-top: calc(var(--about-height) * -1);
     .blur {
       background: rgba(251, 200, 167, 0.2);
       backdrop-filter: blur(4px);

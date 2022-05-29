@@ -28,24 +28,33 @@
   --bakery-grey: #8f8c8c;
   --bakery-slate: #66808f;
 
-  --mobile-nav-height: 70px;
-  --tablet-nav-height: 90px;
-  --dekstop-nav-height: 120px;
+  --nav-height: 70px;
 
-  --mobile-about-height: 500px;
-  --tablet-about-height: 650px;
-  --dekstop-about-height: 950px;
+  --about-height: 550px;
 
-  --mobile-menu-height: 700px;
-  --tablet-menu-height: 900px;
-  --dekstop-menu-height: 2000px;
+  --menu-height: 700px;
 
-  --mobile-contact-height: 450px;
-  --tablet-contact-height: 650px;
-  --dekstop-contact-height: 850px;
+  --contact-height: 450px;
 
-  --mobile-footer-height: 70px;
-  --dekstop-footer-height: 120px;
+  --footer-height: 70px;
+
+  --logo-size: 105px;
+
+  @media (min-width: 768px) {
+    --nav-height: 90px;
+    --about-height: 600px;
+    --menu-height: 750px;
+    --contact-height: 650px;
+  }
+
+  @media (min-width: 992px) {
+    --logo-size: 205px;
+    --nav-height: 120px;
+    --about-height: 950px;
+    --menu-height: 2000px;
+    --contact-height: 850px;
+    --footer-height: 120px;
+  }
 }
 
 h1,
@@ -63,3 +72,5 @@ p {
 a {
   font-family: var(--bs-font-sans-serif);
 }
+
+$enable-negative-margins: true;

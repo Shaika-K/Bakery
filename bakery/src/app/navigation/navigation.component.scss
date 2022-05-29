@@ -1,13 +1,53 @@
 .app-navigation {
-  height: var(--mobile-nav-height);
+  height: calc(var(--nav-height) + 52.5);
   background-color: var(--bakery-primary-orange);
-  .image-container {
-    width: 105px;
+  .nav-wrapper {
+    height: var(--nav-height);
+    > nav {
+      width: 100%;
+    }
+    .image-placeholder {
+      width: var(--logo-size);
+    }
+    a {
+      color: var(--bakery-secondary-brown);
+      font-size: 12px;
+    }
   }
 
-  a{
-    color: var(--bakery-secondary-brown);
-    font-size: 12px;
+  .image-container {
+    // --logo-width: 105px;
+    // width using logical units
+    block-size: var(--logo-size);
+    // height using logical units
+    inline-size: var(--logo-size);
+    background-color: var(--bakery-primary-orange);
+    z-index: 1;
+    // move top left corner to the middle of the x plane
+    inset-inline-start: 50%;
+    // tranform the origin of the image to the the center rather than the top left
+    transform: translate(-50%, -50%);
+    > img {
+      --image-margin: 10.5px;
+      margin: var(--image-margin);
+      background-color: var(--bakery-tertiary-orange);
+      width: calc(100% - (var(--image-margin) * 2));
+    }
   }
 }
 
+@media (min-width: 768px) {
+  .nav-wrapper {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-navigation {
+    .nav-wrapper {
+      > nav {
+        width: 75%;
+      }
+    }
+  }
+}
