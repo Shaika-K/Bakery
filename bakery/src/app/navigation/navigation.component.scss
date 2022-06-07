@@ -39,15 +39,25 @@
 @media (min-width: 768px) {
   .nav-wrapper {
     width: 75%;
+    a{
+      font-size: 18px;
+    }
   }
 }
 
 @media (min-width: 992px) {
   .app-navigation {
     .nav-wrapper {
+      width: 80%;
       > nav {
         width: 75%;
       }
+      a{
+        font-size: 24px;
+      }
+    }
+    .image-container {
+      transform: translate(-213%, -50%);
     }
   }
 }

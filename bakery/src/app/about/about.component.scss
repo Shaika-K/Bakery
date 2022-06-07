@@ -7,6 +7,7 @@
       background: rgba(251, 200, 167, 0.2);
       backdrop-filter: blur(4px);
       .about-text {
+        width: 75%;
         background: rgba(248, 234, 231, 0.8);
         //background-color: rgba(var(--bakery-tertiary-orange), 0.8);
         border-radius: 1.5rem !important;
@@ -20,5 +21,13 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .app-about > .image-container > .blur > .about-text {
+    width: 45%;
+    height:fit-content;
+    margin-right: 10% !important; //using important because bootstrap uses rems and it sucks
   }
 }
