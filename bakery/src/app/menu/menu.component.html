@@ -1,5 +1,8 @@
 <div id="menu" class="app-menu d-flex flex-column py-5">
-  <app-menu-carousel></app-menu-carousel>
+  <app-menu-carousel [menus]="allMenus" *ngIf="showCarouselFormat"></app-menu-carousel>
+  <div #elseBlock *ngFor="let menu of allMenus">
+    <app-menu-detail [title]="menu.title" [time]="menu.time" [menuItems]="menu.menuItems"></app-menu-detail>
+  </div>
   <div class="disclaimer d-flex flex-column p-2">
     <div class="d-flex justify-content-around">
       <p class="text-uppercase">NF: Nut Free</p>

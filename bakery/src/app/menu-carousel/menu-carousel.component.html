@@ -1,6 +1,9 @@
 <div id="carouselExampleControls" data-bs-interval="false" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+  <div class="carousel-inner" *ngFor="let menu of menus; let i = index">
+    <div class="carousel-item" *ngClass="{'active': i === 0}">
+      <app-menu-detail [title]="menu.title" [time]="menu.time" [menuItems]="menu.menuItems"></app-menu-detail>
+    </div>
+    <!-- <div class="carousel-item active">
       <app-menu-detail [title]="'Breakfast'" [time]="'Until 12pm'" [menuItems]="breakfastMenuItems"></app-menu-detail>
     </div>
     <div class="carousel-item">
@@ -14,7 +17,7 @@
     </div>
     <div class="carousel-item">
       <app-menu-detail [title]="'Drinks'" [time]="''" [menuItems]="drinkMenuItems"></app-menu-detail>
-    </div>
+    </div> -->
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

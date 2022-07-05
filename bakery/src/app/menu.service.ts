@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { MenuItem } from './app.model';
+import { Menu } from './app.model';
 
 @Injectable({
   providedIn: 'root',
@@ -9,9 +9,9 @@ import { MenuItem } from './app.model';
 export class MenuService {
   constructor(private http: HttpClient) {}
 
-  returnMockedMenu(menuType: string): Observable<MenuItem[]> {
+  returnMockedMenu(menuType: string): Observable<Menu> {
     // -- MOCKED --
-    let menuDetails: MenuItem[];
+    let menuDetails: Menu;
 
     return new Observable((observer) => {
       this.http

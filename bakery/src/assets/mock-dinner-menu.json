@@ -1,62 +1,66 @@
-[
-  {
-    "description": "Marinated char grilled tenderloins. Served with peri peri chips with ketchup, mild and hot peri peri sauce, and aoli.",
-    "title": "Peri Peri Chicken",
-    "dietaryRequirements": "N/A",
-    "totalNzd": 20.00
-  },
-  {
-    "description": "Crunchy tangy salad.",
-    "title": "Vermicilli Noodle Salad",
-    "dietaryRequirements": "VG",
-    "totalNzd": 7.00
-  },
-  {
-    "description": "Served with gravy and roast vegetables",
-    "title": "Roast 1/2 Chicken or lamb",
-    "dietaryRequirements": "DF",
-    "totalNzd": 24.00
-  },
-  {
-    "description": "Marinated Beef served with hokien noodles, sauce and vegetables",
-    "title": "Babong",
-    "dietaryRequirements": "DF",
-    "totalNzd": 22.00
-  },
-  {
-    "description": "Topped with, rasher bits, shaved doner meat, and tasty and mozzarella cheese",
-    "title": "Loaded Fries",
-    "dietaryRequirements": "N/A",
-    "totalNzd": 6.50
-  },
-  {
-    "description": "Your choice of lamb, chicken or beef. Served with plain jasmine rice. Upgrade to coconut rice or pollau for extra $2. Choose from [tikka masala, korma, rogan josh, tandoor, vindaloo]",
-    "title": "Curry",
-    "dietaryRequirements": "Can be VG",
-    "totalNzd": 14.50
-  },
-  {
-    "description": "Choose from [garlic, cheese, paneer, chicken stuffed]",
-    "title": "Naan",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 5.00
-  },
-  {
-    "description": "11 inch thin crust pizza with marinara sauce and mozzarella. Choose up to 4 toppings from [pepperoni, pineapple, rashers, olives, jalapenoes, sundried tomatoes, caramalised onions, roast garlic, feta, basil, spinach, pesto drizzle, peri[eri drizzle, aoli drizzle, beef, chicken, mushrooms, capsicum]",
-    "title": "Pizza",
-    "dietaryRequirements": "Can be VG, V",
-    "totalNzd": 17.50
-  },
-  {
-    "description": "Prawn and chicken with kimchi.",
-    "title": "Kimchi Fried Rice",
-    "dietaryRequirements": "Can be VG",
-    "totalNzd": 18.00
-  },
-  {
-    "description": "Add fries and ketchup for extra $5.00. Choose from [beef and cheese, vegan mushroom, buttermilk chicken, katsu chicken, bbq beef]",
-    "title": "Burger",
-    "dietaryRequirements": "Can be VG, V",
-    "totalNzd": 16.50
-  }
-]
+{
+  "menuItems": [
+    {
+      "description": "Marinated char grilled tenderloins. Served with peri peri chips with ketchup, mild and hot peri peri sauce, and aoli.",
+      "title": "Peri Peri Chicken",
+      "dietaryRequirements": "N/A",
+      "totalNzd": 20.00
+    },
+    {
+      "description": "Crunchy tangy salad.",
+      "title": "Vermicilli Noodle Salad",
+      "dietaryRequirements": "VG",
+      "totalNzd": 7.00
+    },
+    {
+      "description": "Served with gravy and roast vegetables",
+      "title": "Roast 1/2 Chicken or lamb",
+      "dietaryRequirements": "DF",
+      "totalNzd": 24.00
+    },
+    {
+      "description": "Marinated Beef served with hokien noodles, sauce and vegetables",
+      "title": "Babong",
+      "dietaryRequirements": "DF",
+      "totalNzd": 22.00
+    },
+    {
+      "description": "Topped with, rasher bits, shaved doner meat, and tasty and mozzarella cheese",
+      "title": "Loaded Fries",
+      "dietaryRequirements": "N/A",
+      "totalNzd": 6.50
+    },
+    {
+      "description": "Your choice of lamb, chicken or beef. Served with plain jasmine rice. Upgrade to coconut rice or pollau for extra $2. Choose from [tikka masala, korma, rogan josh, tandoor, vindaloo]",
+      "title": "Curry",
+      "dietaryRequirements": "Can be VG",
+      "totalNzd": 14.50
+    },
+    {
+      "description": "Choose from [garlic, cheese, paneer, chicken stuffed]",
+      "title": "Naan",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 5.00
+    },
+    {
+      "description": "11 inch thin crust pizza with marinara sauce and mozzarella. Choose up to 4 toppings from [pepperoni, pineapple, rashers, olives, jalapenoes, sundried tomatoes, caramalised onions, roast garlic, feta, basil, spinach, pesto drizzle, peri[eri drizzle, aoli drizzle, beef, chicken, mushrooms, capsicum]",
+      "title": "Pizza",
+      "dietaryRequirements": "Can be VG, V",
+      "totalNzd": 17.50
+    },
+    {
+      "description": "Prawn and chicken with kimchi.",
+      "title": "Kimchi Fried Rice",
+      "dietaryRequirements": "Can be VG",
+      "totalNzd": 18.00
+    },
+    {
+      "description": "Add fries and ketchup for extra $5.00. Choose from [beef and cheese, vegan mushroom, buttermilk chicken, katsu chicken, bbq beef]",
+      "title": "Burger",
+      "dietaryRequirements": "Can be VG, V",
+      "totalNzd": 16.50
+    }
+  ],
+  "title": "Dinner",
+  "time": "6pm onwards"
+}

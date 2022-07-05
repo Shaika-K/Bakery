@@ -1,62 +1,66 @@
-[
-  {
-    "description": "Plain or sparkling. With or without mint, Choose from [orange and mango, pineapple and strawberry, watermelon and lemon, apple and elderberry]",
-    "title": "Freshly squeezed Juice",
-    "dietaryRequirements": "V",
-    "totalNzd": 5.00
-  },
-  {
-    "description": "Choose from [double chocolate, salted caramel, strawberry.]",
-    "title": "Milk Shake",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 7.00
-  },
-  {
-    "description": "Vanilla ice-cream. Choose from [coke, coke no sugar, sprite, fanta]",
-    "title": "Spider",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 3.50
-  },
-  {
-    "description": "Large for extra $2. $4 extra dollars for bottom-less.",
-    "title": "Espresso",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.00
-  },
-  {
-    "description": "Large for extra $2.",
-    "title": "Americano",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.00
-  },
-  {
-    "description": "Large for extra $2.",
-    "title": "Latte",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.50
-  },
-  {
-    "description": "Large for extra $2.",
-    "title": "Capuccino",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.50
-  },
-  {
-    "description": "Large for extra $2.",
-    "title": "Mocha",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.50
-  },
-  {
-    "description": "Large for extra $2.",
-    "title": "Flat White",
-    "dietaryRequirements": "Can be V",
-    "totalNzd": 4.50
-  },
-  {
-    "description": "With or without ice. Choose from [coke, coke no sugar, sprite, fanta]",
-    "title": "Soda",
-    "dietaryRequirements": "N/A",
-    "totalNzd": 2.00
-  }
-]
+{
+  "menuItems": [
+    {
+      "description": "Plain or sparkling. With or without mint, Choose from [orange and mango, pineapple and strawberry, watermelon and lemon, apple and elderberry]",
+      "title": "Freshly squeezed Juice",
+      "dietaryRequirements": "V",
+      "totalNzd": 5.0
+    },
+    {
+      "description": "Choose from [double chocolate, salted caramel, strawberry.]",
+      "title": "Milk Shake",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 7.0
+    },
+    {
+      "description": "Vanilla ice-cream. Choose from [coke, coke no sugar, sprite, fanta]",
+      "title": "Spider",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 3.5
+    },
+    {
+      "description": "Large for extra $2. $4 extra dollars for bottom-less.",
+      "title": "Espresso",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.0
+    },
+    {
+      "description": "Large for extra $2.",
+      "title": "Americano",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.0
+    },
+    {
+      "description": "Large for extra $2.",
+      "title": "Latte",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.5
+    },
+    {
+      "description": "Large for extra $2.",
+      "title": "Capuccino",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.5
+    },
+    {
+      "description": "Large for extra $2.",
+      "title": "Mocha",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.5
+    },
+    {
+      "description": "Large for extra $2.",
+      "title": "Flat White",
+      "dietaryRequirements": "Can be V",
+      "totalNzd": 4.5
+    },
+    {
+      "description": "With or without ice. Choose from [coke, coke no sugar, sprite, fanta]",
+      "title": "Soda",
+      "dietaryRequirements": "N/A",
+      "totalNzd": 2.0
+    }
+  ],
+  "title": "Drinks",
+  "time": ""
+}
