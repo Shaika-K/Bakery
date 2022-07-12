@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit } from '@angular/core';
 // import { Observable } from 'rxjs';
 import { Menu, MenuItem } from '../app.model';
 import { MenuService } from '../menu.service';
@@ -8,8 +8,8 @@ import { MenuService } from '../menu.service';
   templateUrl: './menu-carousel.component.html',
   styleUrls: ['./menu-carousel.component.scss'],
 })
-export class MenuCarouselComponent implements OnInit {
-  @Input() menus: Menu[] | undefined = [];
+export class MenuCarouselComponent implements OnChanges {
+  @Input() menus: Menu[] = [];
 
   // private _breakfastMenuItems: MenuItem[] | undefined;
   // private _lunchMenuItems: MenuItem[] | undefined;
@@ -19,7 +19,8 @@ export class MenuCarouselComponent implements OnInit {
 
   constructor(private menuService: MenuService) {}
 
-  ngOnInit(): void {
+  ngOnChanges(): void {
+    console.log(this.menus);
     // this.initializeMenu('breakfast', (menuItems) => this._breakfastMenuItems = menuItems);
     // this.initializeMenu('lunch', (menuItems) => this._lunchMenuItems = menuItems);
     // this.initializeMenu('dinner', (menuItems) => this._dinnerMenuItems = menuItems);
