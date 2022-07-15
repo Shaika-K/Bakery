@@ -1,11 +1,6 @@
 <div id="menu" class="app-menu d-flex flex-column py-5">
-  <div *ngIf="showCarouselFormat; else menuList">
-    eeeee
-    <app-menu-carousel [menus]="allMenus"></app-menu-carousel>
-  </div>
-  <!-- <app-menu-carousel [menus]="allMenus" *ngIf="showCarouselFormat; else menuList"></app-menu-carousel> -->
+  <app-menu-carousel [menus]="allMenus" *ngIf="showCarouselFormat; else menuList"></app-menu-carousel>
   <ng-template #menuList>
-    fffffff
     <div *ngFor="let menu of allMenus">
       <app-menu-detail [title]="menu.title" [time]="menu.time" [menuItems]="menu.menuItems"></app-menu-detail>
     </div>

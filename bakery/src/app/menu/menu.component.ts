@@ -1,4 +1,5 @@
 import { Component, OnChanges, OnInit } from '@angular/core';
+import { Observable, zip } from 'rxjs';
 import { MenuItem, Menu, MenuTypes } from '../app.model';
 import { MenuService } from '../menu.service';
 
@@ -12,23 +13,23 @@ export class MenuComponent implements OnInit {
 
   constructor(private menuService: MenuService) {}
 
-   ngOnInit(){
+  ngOnInit() {
+    const self = this;
     for (const menuType of Object.values(MenuTypes)) {
-      this.initializeMenu(menuType);
+      this.menuService.returnMockedMenu(menuType).subscribe({
+        next(response: Menu) {
+          self._menus.push(response);
+        },
+        error(msg) {},
+      });
     }
   }
 
-  async initializeMenu(menuType: string) {
-    await this.menuService.returnMockedMenu(menuType).subscribe((response: Menu) => {
-      this._menus.push(response);
-    });
-  }
-
   get allMenus(): Menu[] {
-    return this._menus !== undefined ? this._menus : [];
+    return this._menus;
   }
 
-  get showCarouselFormat() {
+  get showCarouselFormat():boolean {
     return window.innerWidth < 992;
   }
 }
