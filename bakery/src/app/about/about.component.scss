@@ -29,5 +29,8 @@
     width: 45%;
     height:fit-content;
     margin-right: 10% !important; //using important because bootstrap uses rems and it sucks
+    p{
+      font-size:18px;
+    }
   }
 }

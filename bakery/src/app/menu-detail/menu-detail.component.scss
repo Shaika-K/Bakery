@@ -6,7 +6,7 @@
     color: var(--bakery-primary-brown);
   }
   .items {
-    height: calc(var(--menu-height)*0.65);
+    height: calc(var(--menu-height) * 0.65);
     overflow-y: scroll;
     .menu-item {
       &-header {
@@ -27,8 +27,32 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .app-menu-details {
     width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-menu-details {
+    width: 80%;
+    .time {
+      font-size: 18px;
+    }
+    .items {
+      .menu-item {
+        &-header {
+          &-price {
+            font-size: 18px;
+          }
+        }
+        &-description {
+          font-size: 18px;
+        }
+        &-dietary {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
